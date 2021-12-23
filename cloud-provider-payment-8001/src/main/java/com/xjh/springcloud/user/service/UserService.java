@@ -8,6 +8,5 @@ import com.xjh.springcloud.user.domain.User;
  */
 public interface UserService {
 
-
     User getUser();
 }

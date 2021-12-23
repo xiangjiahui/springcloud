@@ -1,6 +1,5 @@
 package com.xjh.springcloud.user.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.xjh.springcloud.user.domain.User;
 import org.apache.ibatis.annotations.Mapper;
 

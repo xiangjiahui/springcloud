@@ -1,6 +1,6 @@
 package com.xjh.springcloud.user.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+
 import com.xjh.springcloud.user.domain.User;
 import com.xjh.springcloud.user.mapper.UserMapper;
 import com.xjh.springcloud.user.service.UserService;

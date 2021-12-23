@@ -8,7 +8,8 @@
         <result column="username" jdbcType="VARCHAR" property="username" />
         <result column="password" jdbcType="VARCHAR" property="password" />
     </resultMap>
-    <select id="getUser" resultType="com.xjh.springcloud.user.domain.User" resultMap="BaseResultMap">
+
+    <select id="getUser" resultMap="BaseResultMap">
         select * from user
     </select>
 
