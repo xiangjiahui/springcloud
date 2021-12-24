@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46528f03-9b2a-402a-91c9-f68a9c98bc37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/PaymentApp8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/PaymentApp8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/mybatis/user/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/mybatis/user/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="46528f03-9b2a-402a-91c9-f68a9c98bc37" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,7 +245,7 @@
       <workItem from="1640259088869" duration="8769000" />
       <workItem from="1640317163465" duration="5997000" />
       <workItem from="1640324913310" duration="13346000" />
-      <workItem from="1640338927130" duration="1965000" />
+      <workItem from="1640338927130" duration="2490000" />
     </task>
     <task id="LOCAL-00001" summary="测试能否正常连接到数据库">
       <created>1640259410307</created>
