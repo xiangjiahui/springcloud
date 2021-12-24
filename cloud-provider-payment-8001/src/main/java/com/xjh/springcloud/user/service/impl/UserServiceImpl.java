@@ -1,11 +1,12 @@
 package com.xjh.springcloud.user.service.impl;
 
 
-import com.xjh.springcloud.user.domain.User;
+import com.xjh.springcloud.domains.User;
 import com.xjh.springcloud.user.mapper.UserMapper;
 import com.xjh.springcloud.user.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author xjh
@@ -14,11 +15,21 @@ import org.springframework.stereotype.Service;
 @Service(value = "userService")
 public class UserServiceImpl implements UserService {
 
-    @Autowired
+    @Resource
     private UserMapper userMapper;
 
     @Override
-    public User getUser() {
-        return userMapper.getUser();
+    public List<User> getAllUser() {
+        return userMapper.getAllUser();
+    }
+
+    @Override
+    public int create(User user) {
+        return userMapper.create(user);
+    }
+
+    @Override
+    public User getUserById(Integer id) {
+        return userMapper.getUserById(id);
     }
 }

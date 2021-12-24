@@ -1,6 +1,10 @@
 package com.xjh.springcloud.user.service;
 
-import com.xjh.springcloud.user.domain.User;
+
+
+import com.xjh.springcloud.domains.User;
+
+import java.util.List;
 
 /**
  * @author xjh
@@ -8,5 +12,23 @@ import com.xjh.springcloud.user.domain.User;
  */
 public interface UserService {
 
-    User getUser();
+    /**
+     * 查询所有用户
+     * @return
+     */
+    List<User> getAllUser();
+
+    /**
+     * 新增用户信息
+     * @param user
+     * @return
+     */
+    int create(User user);
+
+    /**
+     * 根据id查询用户
+     * @param id
+     * @return
+     */
+    User getUserById(Integer id);
 }
