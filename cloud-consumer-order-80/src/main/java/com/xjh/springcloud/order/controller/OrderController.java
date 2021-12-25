@@ -19,7 +19,12 @@ import javax.annotation.Resource;
 @RequestMapping("/consumer")
 public class OrderController {
 
-    public static final String USER_URL_PREFIX = "http://localhost:8001";
+//    public static final String USER_URL_PREFIX = "http://localhost:8001";
+
+    /**
+     * 配置集群之后,消费者直接找微服务暴露在外的名字调用,而不在关注端口号和地址
+     */
+    public static final String USER_URL_PREFIX = "http://CLOUD-PAYMENT-SERVICE";
 
     @Resource
     private RestTemplate restTemplate;

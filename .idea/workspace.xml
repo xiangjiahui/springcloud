@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46528f03-9b2a-402a-91c9-f68a9c98bc37" name="Default Changelist" comment="" />
+    <list default="true" id="46528f03-9b2a-402a-91c9-f68a9c98bc37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/xjh/springcloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/xjh/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/xjh/springcloud/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/xjh/springcloud/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/xjh/springcloud/config/ApplicationContextConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/xjh/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/xjh/springcloud/order/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/xjh/springcloud/order/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/PaymentApp8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/PaymentApp8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/xjh/springcloud/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/xjh/PaymentApp8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/xjh/PaymentApp8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/xjh/springcloud/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/xjh/springcloud/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +74,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-eureka-server-7003/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/resources" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.49081364" />
@@ -68,11 +86,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SpringCloudStudy\cloud2021\cloud-provider-payment-8002\src\main\resources" />
+      <recent name="C:\SpringCloudStudy\cloud2021\cloud-provider-payment-8002\src\main\java" />
+      <recent name="C:\SpringCloudStudy\cloud2021" />
       <recent name="C:\SpringCloudStudy\cloud2021\cloud-eureka-server-7003\src\main\resources" />
       <recent name="C:\SpringCloudStudy\cloud2021\cloud-eureka-server-7003\src\main\java" />
-      <recent name="C:\SpringCloudStudy\cloud2021\cloud-api-commons\src\main\java\com\xjh\springcloud" />
-      <recent name="C:\SpringCloudStudy\cloud2021\cloud-consumer-order-80\src\main\java\com\xjh\springcloud\order" />
-      <recent name="C:\SpringCloudStudy\cloud2021\cloud-provider-payment-8001\target\classes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SpringCloudStudy\cloud2021\cloud-provider-payment-8002\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -82,16 +103,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer7003">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.PaymentApp8001">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,19 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-server-7001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.EurekaServer7001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EurekaServer7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server-7002" />
       <extension name="coverage">
@@ -191,8 +197,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.OrderApp80" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,19 +214,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentApp8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment-8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.PaymentApp8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.OrderApp80" />
-      <item itemvalue="Spring Boot.PaymentApp8001" />
-      <item itemvalue="Spring Boot.EurekaServer7001" />
       <item itemvalue="Spring Boot.EurekaServer7002" />
       <item itemvalue="Spring Boot.EurekaServer7003" />
+      <item itemvalue="Spring Boot.PaymentApp8002" />
+      <item itemvalue="Spring Boot.PaymentApp8001" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaServer7003" />
-        <item itemvalue="Spring Boot.EurekaServer7001" />
-        <item itemvalue="Spring Boot.PaymentApp8001" />
         <item itemvalue="Spring Boot.OrderApp80" />
+        <item itemvalue="Spring Boot.PaymentApp8002" />
+        <item itemvalue="Spring Boot.PaymentApp8001" />
+        <item itemvalue="Spring Boot.EurekaServer7003" />
         <item itemvalue="Spring Boot.EurekaServer7002" />
       </list>
     </recent_temporary>
@@ -245,7 +262,8 @@
       <workItem from="1640259088869" duration="8769000" />
       <workItem from="1640317163465" duration="5997000" />
       <workItem from="1640324913310" duration="13346000" />
-      <workItem from="1640338927130" duration="2490000" />
+      <workItem from="1640338927130" duration="5730000" />
+      <workItem from="1640399827720" duration="7441000" />
     </task>
     <task id="LOCAL-00001" summary="测试能否正常连接到数据库">
       <created>1640259410307</created>
