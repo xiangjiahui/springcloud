@@ -1,0 +1,5 @@
+com\xjh\PaymentApp8001.class
+com\xjh\springcloud\user\controller\UserController.class
+com\xjh\springcloud\user\service\impl\UserServiceImpl.class
+com\xjh\springcloud\user\mapper\UserMapper.class
+com\xjh\springcloud\user\service\UserService.class
