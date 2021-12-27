@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46528f03-9b2a-402a-91c9-f68a9c98bc37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/cloud-consumer-order-80-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/cloud-consumer-order-80-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7001/target/cloud-eureka-server-7001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7001/target/cloud-eureka-server-7001-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7001/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7002/target/cloud-eureka-server-7002-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7002/target/cloud-eureka-server-7002-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7002/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7002/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7002/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7002/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7003/target/cloud-eureka-server-7003-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7003/target/cloud-eureka-server-7003-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7003/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7003/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7003/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7003/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-consul-payment-8006/src/main/java/com/xjh/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-consul-payment-8006/src/main/java/com/xjh/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-consul-payment-8006/target/classes/com/xjh/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-consul-payment-8006/target/classes/com/xjh/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-consul-payment-8006/target/cloud-provider-consul-payment-8006-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-consul-payment-8006/target/cloud-provider-consul-payment-8006-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -105,14 +97,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentApp8006">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.OrderOpenFeignApp80">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,15 +164,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentApp8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment-8001" />
+    <configuration name="OrderOpenFeignApp80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-openfeign-order-80" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xjh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.PaymentApp8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.OrderOpenFeignApp80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,19 +206,19 @@
     <list>
       <item itemvalue="Spring Boot.OrderApp80" />
       <item itemvalue="Spring Boot.EurekaServer7002" />
-      <item itemvalue="Spring Boot.EurekaServer7003" />
-      <item itemvalue="Spring Boot.PaymentApp8002" />
-      <item itemvalue="Spring Boot.PaymentApp8001" />
       <item itemvalue="Spring Boot.EurekaServer7001" />
       <item itemvalue="Spring Boot.PaymentApp8006" />
+      <item itemvalue="Spring Boot.OrderOpenFeignApp80" />
+      <item itemvalue="Spring Boot.EurekaServer7003" />
+      <item itemvalue="Spring Boot.PaymentApp8002" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.PaymentApp8006" />
-        <item itemvalue="Spring Boot.EurekaServer7001" />
+        <item itemvalue="Spring Boot.OrderOpenFeignApp80" />
         <item itemvalue="Spring Boot.PaymentApp8002" />
         <item itemvalue="Spring Boot.EurekaServer7003" />
-        <item itemvalue="Spring Boot.PaymentApp8001" />
+        <item itemvalue="Spring Boot.EurekaServer7001" />
+        <item itemvalue="Spring Boot.PaymentApp8006" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +247,7 @@
       <workItem from="1640495587825" duration="660000" />
       <workItem from="1640496319254" duration="39000" />
       <workItem from="1640496373467" duration="2547000" />
+      <workItem from="1640576817457" duration="13957000" />
     </task>
     <task id="LOCAL-00001" summary="测试能否正常连接到数据库">
       <created>1640259410307</created>
