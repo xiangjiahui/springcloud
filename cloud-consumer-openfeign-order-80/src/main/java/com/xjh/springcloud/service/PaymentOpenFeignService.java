@@ -31,4 +31,11 @@ public interface PaymentOpenFeignService {
      */
     @GetMapping("user/getUser/{id}")
     CommonResult<User> getUserById(@PathVariable(name = "id") Integer id);
+
+    /**
+     * 使用了线程暂停来测试OpenFeign超时控制
+     * @return
+     */
+    @GetMapping("user/openfeign/timeout")
+    String userOpenFeignTimeout();
 }

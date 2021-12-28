@@ -4,6 +4,7 @@ import com.xjh.springcloud.domains.CommonResult;
 import com.xjh.springcloud.service.PaymentOpenFeignService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -26,5 +27,11 @@ public class ConsumerOpenFeignController {
     @GetMapping("/openfeign/user/getAllUser")
     public CommonResult list(){
         return paymentOpenFeignService.getAllUser();
+    }
+
+
+    @GetMapping("/openfeign/user/openfeign/timeout")
+    public String userOpenFeignTimeout(){
+        return paymentOpenFeignService.userOpenFeignTimeout();
     }
 }
