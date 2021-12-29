@@ -1,0 +1,329 @@
+2021-12-29 15:08:15.271 [http-nio-8007-exec-5] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:http-nio-8007-exec-5paymentInfo_OK,id:1	正确方法测试成功=====
+2021-12-29 15:12:53.741 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 15:17:53.757 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 15:22:42.937 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status DOWN
+2021-12-29 15:22:42.938 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640762562938, current=DOWN, previous=UP]
+2021-12-29 15:22:42.938 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 15:22:42.970 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 15:22:43.201 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2021-12-29 15:22:46.214 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2021-12-29 15:22:46.231 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - deregister  status: 200
+2021-12-29 15:22:46.237 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2021-12-29 15:36:22.102 [restartedMain] INFO  com.xjh.PaymentApp8007 - Starting PaymentApp8007 using Java 1.8.0_301 on DESKTOP-HTL098J with PID 24960 (C:\SpringCloudStudy\cloud2021\cloud-provider-hystrix-payment-8007\target\classes started by 123 in C:\SpringCloudStudy\cloud2021)
+2021-12-29 15:36:22.104 [restartedMain] INFO  com.xjh.PaymentApp8007 - No active profile set, falling back to default profiles: default
+2021-12-29 15:36:22.262 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-29 15:36:22.262 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-29 15:36:23.384 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d0908f72-bb38-323f-aa03-6f0bc3a4ae6d
+2021-12-29 15:36:24.013 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8007 (http)
+2021-12-29 15:36:24.020 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8007"]
+2021-12-29 15:36:24.021 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-29 15:36:24.021 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 15:36:24.152 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-29 15:36:24.152 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1888 ms
+2021-12-29 15:36:24.242 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-29 15:36:24.250 [restartedMain] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@10e82649
+2021-12-29 15:36:24.428 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-29 15:36:25.212 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-12-29 15:36:25.303 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-29 15:36:25.376 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-12-29 15:36:25.406 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2021-12-29 15:36:25.410 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 15:36:25.429 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-12-29 15:36:25.429 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-12-29 15:36:25.429 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-12-29 15:36:25.429 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2021-12-29 15:36:25.429 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-12-29 15:36:25.429 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2021-12-29 15:36:25.429 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-12-29 15:36:25.821 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2021-12-29 15:36:25.823 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2021-12-29 15:36:25.825 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 15:36:25.829 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1640763385828 with initial instances count: 0
+2021-12-29 15:36:25.832 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status UP
+2021-12-29 15:36:25.833 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640763385832, current=UP, previous=STARTING]
+2021-12-29 15:36:25.834 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 15:36:25.837 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8007"]
+2021-12-29 15:36:25.861 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8007 (http) with context path ''
+2021-12-29 15:36:25.862 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8007
+2021-12-29 15:36:25.886 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 15:36:25.991 [restartedMain] INFO  com.xjh.PaymentApp8007 - Started PaymentApp8007 in 4.786 seconds (JVM running for 5.781)
+2021-12-29 15:36:26.537 [RMI TCP Connection(3)-192.168.0.6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 15:36:26.537 [RMI TCP Connection(3)-192.168.0.6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-29 15:36:26.540 [RMI TCP Connection(3)-192.168.0.6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-12-29 15:36:44.936 [http-nio-8007-exec-1] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:HystrixTimer-1paymentInfo_TimeOut,id:1	运行时间超过3秒/(ㄒoㄒ)/~~=====
+2021-12-29 15:36:55.835 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-12-29 15:36:55.836 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-12-29 15:36:55.836 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-12-29 15:36:55.836 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2021-12-29 15:36:55.836 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-12-29 15:36:55.836 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2021-12-29 15:36:55.836 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-12-29 15:36:55.864 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2021-12-29 15:41:25.442 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 15:44:10.888 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status DOWN
+2021-12-29 15:44:10.888 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640763850888, current=DOWN, previous=UP]
+2021-12-29 15:44:10.889 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 15:44:10.908 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 15:44:10.996 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2021-12-29 15:44:14.006 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2021-12-29 15:44:14.024 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - deregister  status: 200
+2021-12-29 15:44:14.030 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2021-12-29 16:20:47.446 [restartedMain] INFO  com.xjh.PaymentApp8007 - Starting PaymentApp8007 using Java 1.8.0_301 on DESKTOP-HTL098J with PID 10816 (C:\SpringCloudStudy\cloud2021\cloud-provider-hystrix-payment-8007\target\classes started by 123 in C:\SpringCloudStudy\cloud2021)
+2021-12-29 16:20:47.448 [restartedMain] INFO  com.xjh.PaymentApp8007 - No active profile set, falling back to default profiles: default
+2021-12-29 16:20:47.580 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-29 16:20:47.581 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-29 16:20:48.631 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d0908f72-bb38-323f-aa03-6f0bc3a4ae6d
+2021-12-29 16:20:49.158 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8007 (http)
+2021-12-29 16:20:49.167 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8007"]
+2021-12-29 16:20:49.167 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-29 16:20:49.168 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 16:20:49.295 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-29 16:20:49.295 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1713 ms
+2021-12-29 16:20:49.419 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-29 16:20:49.425 [restartedMain] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@50c5340
+2021-12-29 16:20:49.558 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-29 16:20:50.345 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-12-29 16:20:50.411 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-29 16:20:50.471 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-12-29 16:20:50.495 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2021-12-29 16:20:50.499 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 16:20:50.515 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-12-29 16:20:50.515 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-12-29 16:20:50.515 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-12-29 16:20:50.515 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2021-12-29 16:20:50.515 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-12-29 16:20:50.515 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2021-12-29 16:20:50.515 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-12-29 16:20:50.878 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2021-12-29 16:20:50.880 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2021-12-29 16:20:50.882 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 16:20:50.886 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1640766050885 with initial instances count: 0
+2021-12-29 16:20:50.890 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status UP
+2021-12-29 16:20:50.890 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640766050890, current=UP, previous=STARTING]
+2021-12-29 16:20:50.892 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 16:20:50.894 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8007"]
+2021-12-29 16:20:50.919 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8007 (http) with context path ''
+2021-12-29 16:20:50.920 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8007
+2021-12-29 16:20:50.942 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 16:20:51.050 [restartedMain] INFO  com.xjh.PaymentApp8007 - Started PaymentApp8007 in 4.563 seconds (JVM running for 5.544)
+2021-12-29 16:20:51.692 [RMI TCP Connection(2)-192.168.0.6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 16:20:51.692 [RMI TCP Connection(2)-192.168.0.6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-29 16:20:51.694 [RMI TCP Connection(2)-192.168.0.6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-12-29 16:21:20.888 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-12-29 16:21:20.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-12-29 16:21:20.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-12-29 16:21:20.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2021-12-29 16:21:20.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-12-29 16:21:20.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2021-12-29 16:21:20.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-12-29 16:21:20.911 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2021-12-29 16:22:15.185 [http-nio-8007-exec-1] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:HystrixTimer-1系统繁忙或运行报错,请您稍后再试。id:1	运行时间超过3秒/(ㄒoㄒ)/~~=====
+2021-12-29 16:25:50.519 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 16:28:13.830 [http-nio-8007-exec-4] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:HystrixTimer-1系统繁忙或运行报错,请您稍后再试。id:1	运行时间超过3秒/(ㄒoㄒ)/~~=====
+2021-12-29 16:28:39.464 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status DOWN
+2021-12-29 16:28:39.464 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640766519464, current=DOWN, previous=UP]
+2021-12-29 16:28:39.465 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 16:28:39.477 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 16:28:39.563 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2021-12-29 16:28:42.576 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2021-12-29 16:28:42.592 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - deregister  status: 200
+2021-12-29 16:28:42.595 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2021-12-29 16:28:51.881 [restartedMain] INFO  com.xjh.PaymentApp8007 - Starting PaymentApp8007 using Java 1.8.0_301 on DESKTOP-HTL098J with PID 25472 (C:\SpringCloudStudy\cloud2021\cloud-provider-hystrix-payment-8007\target\classes started by 123 in C:\SpringCloudStudy\cloud2021)
+2021-12-29 16:28:51.883 [restartedMain] INFO  com.xjh.PaymentApp8007 - No active profile set, falling back to default profiles: default
+2021-12-29 16:28:52.069 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-29 16:28:52.071 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-29 16:28:53.200 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d0908f72-bb38-323f-aa03-6f0bc3a4ae6d
+2021-12-29 16:28:53.725 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8007 (http)
+2021-12-29 16:28:53.733 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8007"]
+2021-12-29 16:28:53.733 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-29 16:28:53.733 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 16:28:53.865 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-29 16:28:53.866 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1793 ms
+2021-12-29 16:28:53.947 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-29 16:28:53.954 [restartedMain] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@775e0c9a
+2021-12-29 16:28:54.101 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-29 16:28:54.862 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-12-29 16:28:54.929 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-29 16:28:54.994 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-12-29 16:28:55.020 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2021-12-29 16:28:55.025 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 16:28:55.043 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-12-29 16:28:55.043 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-12-29 16:28:55.043 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-12-29 16:28:55.043 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2021-12-29 16:28:55.044 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-12-29 16:28:55.044 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2021-12-29 16:28:55.044 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-12-29 16:28:55.422 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2021-12-29 16:28:55.424 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2021-12-29 16:28:55.426 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 16:28:55.430 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1640766535429 with initial instances count: 1
+2021-12-29 16:28:55.432 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status UP
+2021-12-29 16:28:55.433 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640766535433, current=UP, previous=STARTING]
+2021-12-29 16:28:55.434 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 16:28:55.437 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8007"]
+2021-12-29 16:28:55.461 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8007 (http) with context path ''
+2021-12-29 16:28:55.462 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8007
+2021-12-29 16:28:55.486 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 16:28:55.588 [restartedMain] INFO  com.xjh.PaymentApp8007 - Started PaymentApp8007 in 4.724 seconds (JVM running for 5.629)
+2021-12-29 16:28:56.003 [RMI TCP Connection(3)-192.168.0.6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 16:28:56.003 [RMI TCP Connection(3)-192.168.0.6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-29 16:28:56.006 [RMI TCP Connection(3)-192.168.0.6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-12-29 16:29:16.803 [http-nio-8007-exec-1] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-1paymentInfo_TimeOut,id:1	耗时(秒):2=====
+2021-12-29 16:29:26.485 [http-nio-8007-exec-2] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-2paymentInfo_TimeOut,id:1	耗时(秒):2=====
+2021-12-29 16:31:27.168 [http-nio-8007-exec-5] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-3paymentInfo_TimeOut,id:1	耗时(秒):2=====
+2021-12-29 16:31:43.124 [http-nio-8007-exec-6] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-4paymentInfo_TimeOut,id:1	耗时(秒):2=====
+2021-12-29 16:32:38.581 [http-nio-8007-exec-8] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-5paymentInfo_TimeOut,id:1	耗时(秒):2=====
+2021-12-29 16:32:42.538 [http-nio-8007-exec-9] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-6paymentInfo_TimeOut,id:1	耗时(秒):2=====
+2021-12-29 16:32:45.979 [http-nio-8007-exec-10] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-7paymentInfo_TimeOut,id:1	耗时(秒):2=====
+2021-12-29 16:32:49.693 [http-nio-8007-exec-1] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-8paymentInfo_TimeOut,id:1	耗时(秒):2=====
+2021-12-29 16:32:51.669 [http-nio-8007-exec-2] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-9paymentInfo_TimeOut,id:1	耗时(秒):2=====
+2021-12-29 16:33:28.493 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status DOWN
+2021-12-29 16:33:28.493 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640766808493, current=DOWN, previous=UP]
+2021-12-29 16:33:28.494 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 16:33:28.504 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 16:33:28.593 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2021-12-29 16:33:31.606 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2021-12-29 16:33:31.622 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - deregister  status: 200
+2021-12-29 16:33:31.625 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2021-12-29 16:33:40.161 [restartedMain] INFO  com.xjh.PaymentApp8007 - Starting PaymentApp8007 using Java 1.8.0_301 on DESKTOP-HTL098J with PID 4424 (C:\SpringCloudStudy\cloud2021\cloud-provider-hystrix-payment-8007\target\classes started by 123 in C:\SpringCloudStudy\cloud2021)
+2021-12-29 16:33:40.163 [restartedMain] INFO  com.xjh.PaymentApp8007 - No active profile set, falling back to default profiles: default
+2021-12-29 16:33:40.301 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-29 16:33:40.301 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-29 16:33:41.242 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d0908f72-bb38-323f-aa03-6f0bc3a4ae6d
+2021-12-29 16:33:41.838 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8007 (http)
+2021-12-29 16:33:41.847 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8007"]
+2021-12-29 16:33:41.848 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-29 16:33:41.848 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 16:33:41.986 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-29 16:33:41.986 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1684 ms
+2021-12-29 16:33:42.072 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-29 16:33:42.079 [restartedMain] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6f852fa8
+2021-12-29 16:33:42.227 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-29 16:33:43.019 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-12-29 16:33:43.089 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-29 16:33:43.156 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-12-29 16:33:43.187 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2021-12-29 16:33:43.191 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 16:33:43.209 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-12-29 16:33:43.209 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-12-29 16:33:43.209 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-12-29 16:33:43.209 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2021-12-29 16:33:43.209 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-12-29 16:33:43.209 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2021-12-29 16:33:43.209 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-12-29 16:33:43.599 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2021-12-29 16:33:43.602 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2021-12-29 16:33:43.604 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 16:33:43.607 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1640766823607 with initial instances count: 1
+2021-12-29 16:33:43.610 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status UP
+2021-12-29 16:33:43.611 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640766823611, current=UP, previous=STARTING]
+2021-12-29 16:33:43.612 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 16:33:43.613 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8007"]
+2021-12-29 16:33:43.637 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8007 (http) with context path ''
+2021-12-29 16:33:43.638 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8007
+2021-12-29 16:33:43.659 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 16:33:43.759 [restartedMain] INFO  com.xjh.PaymentApp8007 - Started PaymentApp8007 in 4.253 seconds (JVM running for 5.016)
+2021-12-29 16:33:44.206 [RMI TCP Connection(2)-192.168.0.6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 16:33:44.206 [RMI TCP Connection(2)-192.168.0.6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-29 16:33:44.208 [RMI TCP Connection(2)-192.168.0.6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-12-29 16:33:49.473 [http-nio-8007-exec-1] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-1paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:33:52.693 [http-nio-8007-exec-2] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-2paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:33:55.195 [http-nio-8007-exec-3] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-3paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:33:58.532 [http-nio-8007-exec-4] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-4paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:34:01.148 [http-nio-8007-exec-5] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-5paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:34:16.929 [http-nio-8007-exec-6] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-6paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:35:39.760 [http-nio-8007-exec-10] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-7paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:35:42.116 [http-nio-8007-exec-1] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-8paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:35:46.118 [http-nio-8007-exec-2] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-9paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:37:35.407 [http-nio-8007-exec-5] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:37:45.463 [http-nio-8007-exec-6] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:37:49.047 [http-nio-8007-exec-7] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:37:51.926 [http-nio-8007-exec-8] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:37:54.875 [http-nio-8007-exec-9] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:38:43.220 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 16:39:39.964 [http-nio-8007-exec-3] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:39:42.827 [http-nio-8007-exec-4] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:39:57.604 [http-nio-8007-exec-5] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:39:58.457 [http-nio-8007-exec-6] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-9paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:39:59.219 [http-nio-8007-exec-7] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:40:00.283 [http-nio-8007-exec-8] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:41:38.580 [http-nio-8007-exec-1] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:41:41.482 [http-nio-8007-exec-2] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:43:43.229 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 16:48:43.237 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 16:53:43.251 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 16:56:27.269 [http-nio-8007-exec-4] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:56:54.164 [http-nio-8007-exec-5] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:56:56.471 [http-nio-8007-exec-6] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:57:45.903 [http-nio-8007-exec-8] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:57:48.527 [http-nio-8007-exec-9] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:58:00.056 [http-nio-8007-exec-1] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:58:02.794 [http-nio-8007-exec-2] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:58:43.264 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 16:59:33.715 [http-nio-8007-exec-5] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-10paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 16:59:44.247 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status DOWN
+2021-12-29 16:59:44.247 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640768384247, current=DOWN, previous=UP]
+2021-12-29 16:59:44.247 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 16:59:44.263 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 16:59:44.341 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2021-12-29 16:59:47.360 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2021-12-29 16:59:47.375 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - deregister  status: 200
+2021-12-29 16:59:47.375 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2021-12-29 17:00:05.404 [restartedMain] INFO  com.xjh.PaymentApp8007 - Starting PaymentApp8007 using Java 1.8.0_301 on DESKTOP-HTL098J with PID 4856 (C:\SpringCloudStudy\cloud2021\cloud-provider-hystrix-payment-8007\target\classes started by 123 in C:\SpringCloudStudy\cloud2021)
+2021-12-29 17:00:05.404 [restartedMain] INFO  com.xjh.PaymentApp8007 - No active profile set, falling back to default profiles: default
+2021-12-29 17:00:05.524 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-29 17:00:05.524 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-29 17:00:06.823 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d0908f72-bb38-323f-aa03-6f0bc3a4ae6d
+2021-12-29 17:00:07.619 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8007 (http)
+2021-12-29 17:00:07.635 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8007"]
+2021-12-29 17:00:07.635 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-29 17:00:07.635 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 17:00:07.775 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-29 17:00:07.775 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2251 ms
+2021-12-29 17:00:07.869 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-29 17:00:07.885 [restartedMain] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@dd32986
+2021-12-29 17:00:08.136 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-29 17:00:09.074 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-12-29 17:00:09.136 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-29 17:00:09.231 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-12-29 17:00:09.263 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2021-12-29 17:00:09.263 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-12-29 17:00:09.294 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-12-29 17:00:09.294 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-12-29 17:00:09.294 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-12-29 17:00:09.294 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2021-12-29 17:00:09.294 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-12-29 17:00:09.294 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2021-12-29 17:00:09.294 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-12-29 17:00:09.797 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2021-12-29 17:00:09.813 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2021-12-29 17:00:09.813 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-29 17:00:09.828 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1640768409828 with initial instances count: 0
+2021-12-29 17:00:09.828 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status UP
+2021-12-29 17:00:09.844 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640768409844, current=UP, previous=STARTING]
+2021-12-29 17:00:09.844 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 17:00:09.844 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8007"]
+2021-12-29 17:00:09.875 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8007 (http) with context path ''
+2021-12-29 17:00:09.875 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8007
+2021-12-29 17:00:09.906 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 17:00:10.063 [restartedMain] INFO  com.xjh.PaymentApp8007 - Started PaymentApp8007 in 5.278 seconds (JVM running for 6.028)
+2021-12-29 17:00:10.769 [RMI TCP Connection(1)-192.168.0.6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 17:00:10.769 [RMI TCP Connection(1)-192.168.0.6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-29 17:00:10.785 [RMI TCP Connection(1)-192.168.0.6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-12-29 17:00:39.823 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-12-29 17:00:39.823 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-12-29 17:00:39.823 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-12-29 17:00:39.823 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2021-12-29 17:00:39.823 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-12-29 17:00:39.823 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2021-12-29 17:00:39.823 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-12-29 17:00:39.839 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2021-12-29 17:00:53.879 [http-nio-8007-exec-1] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-1paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 17:02:00.273 [http-nio-8007-exec-4] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-2paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 17:02:03.292 [http-nio-8007-exec-5] INFO  com.xjh.springcloud.controller.PaymentController - =====线程池:hystrix-PaymentServiceImpl-3paymentInfo_TimeOut,id:1	耗时(秒):1=====
+2021-12-29 17:03:22.415 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application CLOUD-PROVIDER-HYSTRIX-PAYMENT with eureka with status DOWN
+2021-12-29 17:03:22.415 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1640768602415, current=DOWN, previous=UP]
+2021-12-29 17:03:22.415 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007: registering service...
+2021-12-29 17:03:22.449 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER-HYSTRIX-PAYMENT/cloud-provider-hystrix-payment-8007 - registration status: 204
+2021-12-29 17:03:22.553 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...

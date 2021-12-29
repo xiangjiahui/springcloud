@@ -1,1 +1,4 @@
+com\xjh\springcloud\controller\PaymentController.class
+com\xjh\springcloud\service\impl\PaymentServiceImpl.class
 com\xjh\PaymentApp8007.class
+com\xjh\springcloud\service\PaymentService.class
