@@ -1,3 +1,4 @@
 com\xjh\springcloud\controller\OrderHystrixController.class
 com\xjh\springcloud\service\OpenHystrixConsumerService.class
 com\xjh\OpenFeignHystrixApp80.class
+com\xjh\springcloud\service\PaymentHystrixFallbackServiceImpl.class

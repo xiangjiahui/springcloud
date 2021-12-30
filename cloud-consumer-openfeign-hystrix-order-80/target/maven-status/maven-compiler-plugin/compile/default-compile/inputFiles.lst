@@ -1,3 +1,4 @@
 C:\SpringCloudStudy\cloud2021\cloud-consumer-openfeign-hystrix-order-80\src\main\java\com\xjh\springcloud\service\OpenHystrixConsumerService.java
 C:\SpringCloudStudy\cloud2021\cloud-consumer-openfeign-hystrix-order-80\src\main\java\com\xjh\OpenFeignHystrixApp80.java
 C:\SpringCloudStudy\cloud2021\cloud-consumer-openfeign-hystrix-order-80\src\main\java\com\xjh\springcloud\controller\OrderHystrixController.java
+C:\SpringCloudStudy\cloud2021\cloud-consumer-openfeign-hystrix-order-80\src\main\java\com\xjh\springcloud\service\PaymentHystrixFallbackServiceImpl.java

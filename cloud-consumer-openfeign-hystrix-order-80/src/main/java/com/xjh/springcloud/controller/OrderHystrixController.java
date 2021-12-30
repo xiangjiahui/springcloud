@@ -24,6 +24,13 @@ public class OrderHystrixController {
     @Resource
     private OpenHystrixConsumerService consumerService;
 
+
+    @GetMapping("/user/hystrix/ok/{id}")
+    public String paymentInfo_OK(@PathVariable(name = "id") Integer id){
+        return consumerService.paymentInfo_OK(id);
+    }
+
+
     /**
      * 全局服务降级配置使用@DefaultProperties(defaultFallback = "payment_Global_Fallback")
      * 如果只标注了@HystrixCommand注解,那么就找全局的降级处理方法。如果配置了特定的方法,那么就找自己特定的方法

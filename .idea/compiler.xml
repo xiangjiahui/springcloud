@@ -17,6 +17,7 @@
         <module name="cloud-consumer-openfeign-order-80" />
         <module name="cloud-consumer-openfeign-hystrix-order-80" />
         <module name="cloud-consumer-order-80" />
+        <module name="cloud-provider-hystrix-dashboard-9001" />
         <module name="cloud-provider-consul-payment-8006" />
       </profile>
     </annotationProcessing>
@@ -29,6 +30,7 @@
       <module name="cloud-eureka-server-7002" target="1.8" />
       <module name="cloud-eureka-server-7003" target="1.8" />
       <module name="cloud-provider-consul-payment-8006" target="1.8" />
+      <module name="cloud-provider-hystrix-dashboard-9001" target="1.8" />
       <module name="cloud-provider-hystrix-payment-8007" target="1.8" />
       <module name="cloud-provider-payment-8001" target="1.8" />
       <module name="cloud-provider-payment-8002" target="1.8" />
