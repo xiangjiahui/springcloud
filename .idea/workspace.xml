@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46528f03-9b2a-402a-91c9-f68a9c98bc37" name="Default Changelist" comment="测试能否正常连接到数据库">
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-hystrix-order-80/src/main/java/com/xjh/springcloud/controller/OrderHystrixController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-hystrix-order-80/src/main/java/com/xjh/springcloud/controller/OrderHystrixController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-hystrix-order-80/target/classes/com/xjh/springcloud/controller/OrderHystrixController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-hystrix-order-80/target/classes/com/xjh/springcloud/controller/OrderHystrixController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-hystrix-order-80/target/cloud-consumer-openfeign-hystrix-order-80-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-hystrix-order-80/target/cloud-consumer-openfeign-hystrix-order-80-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/cloud-consumer-order-80-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/cloud-consumer-order-80-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +68,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.49081364" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -98,7 +94,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.show">
+  <component name="RunManager" selected="Spring Boot.ConfigClientApp3355">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -140,22 +136,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cloud-eureka-server-7001" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.EurekaServer7001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServer7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-server-7002" />
+    <configuration name="ConfigClientApp3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3355" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xjh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.EurekaServer7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.ConfigClientApp3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApp3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-server-3344" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.ConfigServerApp3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.EurekaServer7001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,14 +231,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentHystrixDashboardApp9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentApp8007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-hystrix-payment-8007" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.PaymentApp8007" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentHystrixDashboardApp9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-hystrix-dashboard-9001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.PaymentHystrixDashboardApp9001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -237,6 +247,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.Test.show" />
       <item itemvalue="Spring Boot.EurekaServer7001" />
       <item itemvalue="Spring Boot.OrderApp80" />
       <item itemvalue="Spring Boot.PaymentApp8002" />
@@ -244,19 +255,20 @@
       <item itemvalue="Spring Boot.OrderOpenFeignApp80" />
       <item itemvalue="Spring Boot.PaymentApp8001" />
       <item itemvalue="Spring Boot.EurekaServer7003" />
-      <item itemvalue="Spring Boot.GatewayApp9527" />
-      <item itemvalue="Spring Boot.EurekaServer7002" />
-      <item itemvalue="Spring Boot.PaymentHystrixDashboardApp9001" />
       <item itemvalue="Spring Boot.OpenFeignHystrixApp80" />
-      <item itemvalue="JUnit.Test.show" />
+      <item itemvalue="Spring Boot.PaymentApp8007" />
+      <item itemvalue="Spring Boot.GatewayApp9527" />
+      <item itemvalue="Spring Boot.ConfigServerApp3344" />
+      <item itemvalue="Spring Boot.PaymentHystrixDashboardApp9001" />
+      <item itemvalue="Spring Boot.ConfigClientApp3355" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigServerApp3344" />
+        <item itemvalue="Spring Boot.ConfigClientApp3355" />
         <item itemvalue="JUnit.Test.show" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.GatewayApp9527" />
-        <item itemvalue="Spring Boot.EurekaServer7002" />
-        <item itemvalue="Spring Boot.PaymentHystrixDashboardApp9001" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +317,10 @@
       <workItem from="1641790127774" duration="1790000" />
       <workItem from="1641871800596" duration="8401000" />
       <workItem from="1642145428926" duration="1607000" />
-      <workItem from="1642149724463" duration="2364000" />
+      <workItem from="1642149724463" duration="2878000" />
+      <workItem from="1642226863427" duration="4798000" />
+      <workItem from="1642300493316" duration="3275000" />
+      <workItem from="1642389008161" duration="9516000" />
     </task>
     <task id="LOCAL-00001" summary="测试能否正常连接到数据库">
       <created>1640259410307</created>

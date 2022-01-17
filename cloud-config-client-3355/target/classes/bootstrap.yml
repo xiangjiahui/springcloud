@@ -1,0 +1,20 @@
+server:
+  port: 3355
+#bootstrap.yml配置文件是系统级,优先级更高
+spring:
+  application:
+    name: cloud-config-client
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: cloud-config-server
+      label: master #分支名称
+      name: application #配置文件名称
+      profile: dev #文件后缀名称
+#      uri: http://localhost:3344 #配置中心地址
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
