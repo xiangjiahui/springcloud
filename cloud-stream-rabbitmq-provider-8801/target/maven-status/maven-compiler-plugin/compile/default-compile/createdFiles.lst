@@ -1,0 +1,4 @@
+com\xjh\springcloud\service\impl\MessageProviderImpl.class
+com\xjh\springcloud\controller\SendMessageController.class
+com\xjh\springcloud\service\MessageProvider.class
+com\xjh\StreamApp8801.class

@@ -94,7 +94,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientApp3355">
+  <component name="RunManager" selected="Spring Boot.StreamApp8802">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -102,13 +102,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="cloud-gateway-gateway-9527" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,6 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServer7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server-7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.EurekaServer7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServer7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server-7003" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.EurekaServer7003" />
@@ -176,14 +176,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApp9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GatewayApp9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-gateway-gateway-9527" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xjh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.GatewayApp9527" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -245,30 +239,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamApp8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-provider-8801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.StreamApp8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamApp8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer-8802" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xjh.StreamApp8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.Test.show" />
       <item itemvalue="Spring Boot.EurekaServer7001" />
-      <item itemvalue="Spring Boot.OrderApp80" />
-      <item itemvalue="Spring Boot.PaymentApp8002" />
-      <item itemvalue="Spring Boot.PaymentApp8006" />
-      <item itemvalue="Spring Boot.OrderOpenFeignApp80" />
-      <item itemvalue="Spring Boot.PaymentApp8001" />
       <item itemvalue="Spring Boot.EurekaServer7003" />
       <item itemvalue="Spring Boot.OpenFeignHystrixApp80" />
+      <item itemvalue="Spring Boot.OrderApp80" />
+      <item itemvalue="Spring Boot.OrderOpenFeignApp80" />
+      <item itemvalue="Spring Boot.PaymentApp8001" />
+      <item itemvalue="Spring Boot.PaymentApp8002" />
+      <item itemvalue="Spring Boot.PaymentApp8006" />
       <item itemvalue="Spring Boot.PaymentApp8007" />
-      <item itemvalue="Spring Boot.GatewayApp9527" />
-      <item itemvalue="Spring Boot.ConfigServerApp3344" />
       <item itemvalue="Spring Boot.PaymentHystrixDashboardApp9001" />
+      <item itemvalue="Spring Boot.EurekaServer7002" />
+      <item itemvalue="Spring Boot.GatewayApp9527" />
       <item itemvalue="Spring Boot.ConfigClientApp3355" />
+      <item itemvalue="Spring Boot.ConfigServerApp3344" />
+      <item itemvalue="Spring Boot.StreamApp8801" />
+      <item itemvalue="Spring Boot.StreamApp8802" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.StreamApp8802" />
+        <item itemvalue="Spring Boot.StreamApp8801" />
         <item itemvalue="Spring Boot.ConfigServerApp3344" />
         <item itemvalue="Spring Boot.ConfigClientApp3355" />
         <item itemvalue="JUnit.Test.show" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Spring Boot.GatewayApp9527" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +342,12 @@
       <workItem from="1642149724463" duration="2878000" />
       <workItem from="1642226863427" duration="4798000" />
       <workItem from="1642300493316" duration="3275000" />
-      <workItem from="1642389008161" duration="9516000" />
+      <workItem from="1642389008161" duration="10193000" />
+      <workItem from="1642478469231" duration="1256000" />
+      <workItem from="1642595920805" duration="3000" />
+      <workItem from="1642648770829" duration="1135000" />
+      <workItem from="1642669280702" duration="6438000" />
+      <workItem from="1642837501440" duration="1847000" />
     </task>
     <task id="LOCAL-00001" summary="测试能否正常连接到数据库">
       <created>1640259410307</created>
