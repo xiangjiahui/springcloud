@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 /**
  * @author xjh
  * @date 2021/12/29 16:19
+ * 参数name指向调用的微服务提供者的微服务名称
  */
 @Component
 @FeignClient(name = "CLOUD-PROVIDER-HYSTRIX-PAYMENT",fallback = PaymentHystrixFallbackServiceImpl.class)

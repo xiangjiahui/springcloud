@@ -12,9 +12,23 @@ spring:
       label: master #分支名称
       name: application #配置文件名称
       profile: dev #文件后缀名称
-#      uri: http://localhost:3344 #配置中心地址
+      uri: http://localhost:3344 #配置中心地址
+#rabbitmq相关配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
+
+#暴露监控端点,解决config服务端修改配置文件后config客户端每次都需要重启的问题,还需配合@RefreshScope注解使用
+#加上配置和注解之后,还需要在cmd界面发送post请求刷新: cur | -X POST "http://localhost:3355/actuator/refresh"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

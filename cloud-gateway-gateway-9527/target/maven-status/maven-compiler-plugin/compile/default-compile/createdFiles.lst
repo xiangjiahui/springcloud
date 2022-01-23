@@ -1,2 +1,3 @@
-com\xjh\GatewayApp9527.class
 com\xjh\springcloud\config\GatewayConfig.class
+com\xjh\springcloud\filter\MyLogGatewayFilter.class
+com\xjh\GatewayApp9527.class

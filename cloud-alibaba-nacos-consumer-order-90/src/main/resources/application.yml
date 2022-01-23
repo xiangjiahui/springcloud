@@ -1,0 +1,13 @@
+server:
+  port: 90
+
+spring:
+  application:
+    name: cloud-alibaba-nacos-consumer-order-90
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+service-uri:
+  nacos-user-service: http://cloud-alibaba-nacos-provider-payment

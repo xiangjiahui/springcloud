@@ -1,0 +1,17 @@
+server:
+  port: 9100
+
+spring:
+  application:
+    name: cloud-alibaba-nacos-provider-payment
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #配置Nacos本地运行的地址
+#        service: ${spring.application.name}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -15,7 +15,19 @@ spring:
           username: 2464674651@qq.com
           password: XJH9901042832
           skip-ssl-validation: true
+#rabbitmq相关配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
+#rabbitmq相关配置,暴露bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
 
 
 eureka:
