@@ -26,6 +26,7 @@
         <module name="cloud-stream-rabbitmq-provider-8801" />
         <module name="cloud-gateway-gateway-9527" />
         <module name="cloud-alibaba-nacos-provider-payment-9100" />
+        <module name="cloud-alibaba-sentinel-service-8401" />
         <module name="cloud-config-client-3355" />
         <module name="cloud-alibaba-nacos-config-client-3377" />
       </profile>
@@ -35,6 +36,7 @@
       <module name="cloud-alibaba-nacos-consumer-order-90" target="1.8" />
       <module name="cloud-alibaba-nacos-provider-payment-9100" target="1.8" />
       <module name="cloud-alibaba-nacos-provider-payment-9101" target="1.8" />
+      <module name="cloud-alibaba-sentinel-service-8401" target="1.8" />
       <module name="cloud-api-commons" target="1.8" />
       <module name="cloud-config-client-3355" target="1.8" />
       <module name="cloud-config-server-3344" target="1.8" />
